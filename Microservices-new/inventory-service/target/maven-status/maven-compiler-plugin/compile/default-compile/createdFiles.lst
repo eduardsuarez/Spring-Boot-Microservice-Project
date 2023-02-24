@@ -1,7 +1,0 @@
-com\project\discoveryserver\inventoryservice\dto\InventoryResponse.class
-com\project\discoveryserver\inventoryservice\service\InventoryService.class
-com\project\discoveryserver\inventoryservice\controller\InventoryController.class
-com\project\discoveryserver\inventoryservice\dto\InventoryResponse$InventoryResponseBuilder.class
-com\project\discoveryserver\inventoryservice\InventoryServiceApplication.class
-com\project\discoveryserver\inventoryservice\model\Inventory.class
-com\project\discoveryserver\inventoryservice\repository\InventoryRepository.class
