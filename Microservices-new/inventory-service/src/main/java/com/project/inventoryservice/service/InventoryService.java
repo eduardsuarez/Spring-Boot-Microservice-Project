@@ -1,8 +1,8 @@
 package com.project.inventoryservice.service;
 
 
-import com.project.inventoryservice.dto.InventoryResponse;
 import com.project.inventoryservice.repository.InventoryRepository;
+import com.project.inventoryservice.dto.InventoryResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

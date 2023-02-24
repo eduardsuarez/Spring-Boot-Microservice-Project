@@ -1,11 +1,11 @@
 package com.project.orderservice.service;
 
 import com.project.orderservice.dto.InventoryResponse;
+import com.project.orderservice.model.OrderLineItems;
+import com.project.orderservice.repository.OrderRepository;
 import com.project.orderservice.dto.OrderLineItemsDto;
 import com.project.orderservice.dto.OrderRequest;
 import com.project.orderservice.model.Order;
-import com.project.orderservice.model.OrderLineItems;
-import com.project.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,7 +22,7 @@ public class OrderService {
 
 
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
 
     public void placeOrder(OrderRequest orderRequest){
@@ -39,8 +39,8 @@ public class OrderService {
 
         // Call Inventory Service, and place order if product is in stock
 
-        InventoryResponse[]  inventoryResponsesArray = webClient.get()
-                .uri("http://localhost:8082/api/inventory",
+        InventoryResponse[]  inventoryResponsesArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory",
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)

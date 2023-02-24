@@ -1,7 +1,7 @@
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\controller\ProductController.java
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\repository\ProductRepository.java
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\dto\ProductRequest.java
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\service\ProductService.java
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\dto\ProductResponse.java
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\model\Product.java
-C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\productservice\ProductServiceApplication.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\repository\ProductRepository.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\controller\ProductController.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\ProductServiceApplication.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\dto\ProductRequest.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\model\Product.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\service\ProductService.java
+C:\Users\eduar\Documents\Java\Proyectos\SpringBootMicoservice Project\Microservices-new\product-service\src\main\java\com\project\discoveryserver\productservice\dto\ProductResponse.java
