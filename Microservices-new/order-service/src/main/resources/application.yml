@@ -44,6 +44,18 @@ resilience4j.retry:
             max-attempts: 3
             wait-duration: 5s
 
+    zipkin:
+        base-url: http://locallhost:9411
+
+
+# Trace every action
+    tracing:
+        sampling:
+            probability:1.0
+
+
+
+
 
 
 
@@ -61,3 +73,18 @@ spring:
     jpa:
         hibernate:
             ddl-auto: update
+
+
+    #Kafka Properties
+    kafka:
+        bootstrap-servers: localhost:9092
+        template:
+            default-topic: notificationTopic
+        producer:
+            key-serializer: org.apache.kafka.common.serialization.StringSerializer
+            value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+            properties:
+                spring:
+                    json:
+                        type:
+                            mapping: event:com.project.orderservice.event.OrderPlacedEvent

@@ -36,6 +36,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-tracing -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-tracing</artifactId>
+            <version>1.0.0-M8</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>

@@ -43,6 +43,17 @@ spring:
         resourceserver:
           jwt:
             issuer-uri: http://localhost:8181/realms/spring-boot-microservices-realm
+
+
+    zipkin:
+      base-url: http://locallhost:9411
+
+
+# Trace every action
+management:
+  tracing:
+    sampling:
+      probability:1.0
                   
                 
                 
