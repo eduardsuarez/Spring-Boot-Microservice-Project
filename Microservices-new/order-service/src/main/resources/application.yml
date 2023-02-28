@@ -53,13 +53,6 @@ resilience4j.retry:
         sampling:
             probability:1.0
 
-
-
-
-
-
-
-
 server:
     port: 8081
 spring:

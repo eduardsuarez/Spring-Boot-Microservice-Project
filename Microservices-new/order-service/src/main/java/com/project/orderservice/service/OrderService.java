@@ -62,8 +62,6 @@ public class OrderService {
             throw new IllegalArgumentException("Product isn't in stock, please try again");
         }
 
-
-
     }
 
     private OrderLineItems mapToDto(OrderLineItemsDto orderLineItemsDto) {

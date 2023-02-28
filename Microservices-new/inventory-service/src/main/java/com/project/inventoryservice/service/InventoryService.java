@@ -17,12 +17,13 @@ import java.util.List;
 public class InventoryService {
     private final InventoryRepository inventoryRepository;
 
+
     @Transactional(readOnly = true)
     @SneakyThrows
     public List<InventoryResponse> isInStock(List<String> skuCode) {
         log.info("Checking Inventory");
         log.info("wait Started");
-        Thread.sleep(200);
+        // Thread.sleep(200);
         log.info("Wait Ended");
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
                 .map(inventory ->

@@ -1,1 +1,13 @@
 /Microservices-new/api-gateway/target/
+/Microservices-new/discoveryServer1/target/
+/Microservices-new/inventory-service/target/
+/Microservices-new/notification-service/target/
+/Microservices-new/order-service/target/
+/Microservices-new/product-service/target/
+
+
+/Microservices-new/mongo-data/
+/Microservices-new/mysql_keycloak_data/
+/Microservices-new/postgres-inventory/
+/Microservices-new/postgres-order/
+/Microservices-new/realms/
